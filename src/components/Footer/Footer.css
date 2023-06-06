@@ -75,11 +75,11 @@
   color: #ffffff;
 }
 .footer__socials {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .footer__social {
   display: inline-block;
   width: 24px;
   height: 24px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
