@@ -1,0 +1,24 @@
+.conservatism {
+  background: url(../../essets/conservatism.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 122px 0px 121px;
+}
+.conservatism__title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  /* or 167% */
+
+  text-align: center;
+
+  color: #ffffff;
+  max-width: 1047px;
+  margin: auto;
+}
+.conservatism__title span {
+  color: #ffd600;
+}

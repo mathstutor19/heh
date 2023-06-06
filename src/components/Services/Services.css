@@ -1,0 +1,27 @@
+.services {
+  background: #1e1e1e;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.services__title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height */
+
+  color: #ffffff;
+  text-align: center;
+}
+.services__title span {
+  color: #ffd600;
+}
+.service__card__wrapper {
+  max-width: 1130px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 58px;
+}

@@ -1,0 +1,83 @@
+.offer {
+  padding-top: 151px;
+
+  background: #1e1e1e;
+}
+.offer__title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height */
+
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 6px;
+}
+.offer__title span {
+  color: #ffd600;
+}
+.offer__card__wrapper {
+  max-width: 1280px;
+  background-image: url(../../essets/offerbg.png);
+  background-position: top;
+  background-size: 1000px 1000px;
+  background-repeat: no-repeat;
+  margin: auto;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 300px;
+}
+.offer__first,
+.offer__second {
+  margin-top: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+.offer__first {
+  margin-left: 40px;
+}
+.offer__second {
+  margin-left: 88px;
+}
+.offer__card__title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #ffd600;
+}
+.offer__card__desc {
+  max-width: 265px;
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #ffffff;
+}
+.offer__image {
+  display: block;
+  margin: auto;
+  margin-top: 250px;
+  margin-left: -25px;
+}
+
+/* position: absolute;
+width: 200px;
+height: 200px;
+left: 620px;
+top: 2707px;
+
+background: #FFD600;
+filter: blur(200px); */
