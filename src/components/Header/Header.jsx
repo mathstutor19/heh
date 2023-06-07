@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import logo from '../../essets/logo.svg';
 import './Header.css';
@@ -7,14 +8,14 @@ function Header() {
     <header className="header">
       <div className="header__container">
         <nav className="navbar">
-          <a href="#">
+          <Link to="/">
             <img src={logo} alt="nav-logo" />
-          </a>
+          </Link>
           <ul className="nav__items">
             <li className="nav__item">
-              <a className="nav__link" href="">
+              <Link className="nav__link" to="/for-investors">
                 For investors
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
               <a className="nav__link" href="">

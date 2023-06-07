@@ -1,0 +1,110 @@
+.investors {
+  background: #17181a;
+}
+.investors__container {
+  max-width: 1280px;
+  padding: 0px 20px;
+  margin: auto;
+}
+.investors__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+.investors__logo {
+  width: 60px;
+  height: 96px;
+}
+.investors__items {
+  list-style: none;
+  margin-right: 21%;
+}
+.investors__item {
+  display: inline-block;
+  margin-left: 60px;
+}
+.investors__link {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #ffffff;
+  text-decoration: none;
+}
+.investors__link-active {
+  color: #ffd600;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.investors__back {
+  display: flex;
+  margin-top: 13px;
+}
+.investors__back p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-left: 13px;
+}
+.investors__text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  padding: 41px 0px 50px 0px;
+}
+
+/* Media  */
+
+@media screen and (max-width: 768px) {
+  .investors__items {
+    display: none;
+  }
+  .investors__text {
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #ffffff;
+    padding: 30px 0px 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .investors__container {
+    width: 100%;
+    padding: 0px;
+  }
+  .investors__nav {
+    padding: 30px 20px;
+  }
+  .investors__logo {
+    width: 25px;
+    height: 42px;
+  }
+  .investors__back {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .investors__back p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #ffffff;
+    margin-left: 13px;
+  }
+  .investors__text {
+    padding: 30px 20px 50px;
+  }
+}
